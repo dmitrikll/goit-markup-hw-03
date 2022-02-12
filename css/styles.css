@@ -16,6 +16,37 @@ body {
   background-color: var(--active-button-text-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px dashed red;
+}
+
 .list {
   list-style: none;
 }
@@ -24,9 +55,34 @@ body {
   text-decoration: none;
 }
 
-/* HEADER */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ===== HEADER ===== */
+
+.header {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
 
 .header .logo-first {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -35,6 +91,9 @@ body {
 }
 
 .header .logo-second {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 92px;
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -43,7 +102,18 @@ body {
   color: var(--logo-text-color);
 }
 
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-list-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -51,7 +121,19 @@ body {
   color: var(--main-text-color);
 }
 
+.contact-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contact-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .contact-list-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,7 +152,9 @@ body {
   color: var(--accent-color);
 }
 
-/* index.html - HERO */
+/* ===== END HEADER ===== */
+
+/* ===== HERO ===== index.html ===== */
 
 .hero {
   background-color: var(--background-footer-color);
