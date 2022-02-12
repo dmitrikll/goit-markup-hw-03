@@ -36,6 +36,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -220,6 +222,10 @@ img {
 }
 
 .hero-title {
+  display: block;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -254,7 +260,26 @@ img {
 
 /* ===== FEATURES ===== index.html ===== */
 
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features-list {
+  display: flex;
+  align-items: center;
+}
+
+.feature-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.feature-list-item {
+  flex-basis: calc((100%-4 * 30px) / 4);
+}
+
 .feature-list-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -271,7 +296,10 @@ img {
   color: var(--secondary-text-color);
 }
 
-/* index.html - WORKS */
+/* ===== end FEATURES ===== index.html ===== */
+
+/* ===== WORKS ===== index.html ===== */
+
 .works-title {
   font-weight: 700;
   font-size: 36px;
