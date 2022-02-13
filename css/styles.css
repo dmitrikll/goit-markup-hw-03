@@ -190,6 +190,10 @@ img {
   margin-top: 20px;
 }
 
+.adress-list-item:not(:last-child) {
+  padding-bottom: 9px;
+}
+
 .address-item {
   font-weight: 400;
   font-size: 14px;
@@ -408,7 +412,7 @@ img {
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-  text-align: center;
+  text-align: left;
 }
 
 .filter-list {
@@ -469,8 +473,7 @@ img {
 }
 
 .portfolio-example-card {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
   border-right: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
