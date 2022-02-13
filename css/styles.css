@@ -76,6 +76,9 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 .header-container {
