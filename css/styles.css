@@ -360,7 +360,6 @@ img {
 
 .team-list-item {
   margin-right: 30px;
-  box-shadow: 1px 1px 5px var(--secondary-text-color); */
 }
 
 .team-list-item:nth-child(n + 4) {
@@ -406,20 +405,20 @@ img {
 
 /* ===== HERO ===== portfolio.html ===== */
 
-.portfolio{
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
   text-align: center;
 }
 
-.filter-list{
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 50px;
+.filter-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-.filter-list-item:not(:last-child){
+.filter-list-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -450,7 +449,7 @@ margin-bottom: 50px;
   cursor: pointer;
 }
 
-.portfolio-example{
+.portfolio-example {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
@@ -458,7 +457,7 @@ margin-bottom: 50px;
   align-items: center;
 }
 
-.portfolio-example-item{
+.portfolio-example-item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
@@ -467,12 +466,9 @@ margin-bottom: 50px;
 .img-size {
   width: 370;
   /* height: 294; */
-  
 }
 
-
-
-.portfolio-example-card{
+.portfolio-example-card {
   padding-top: 20px;
   padding-bottom: 20px;
   border-right: 1px solid var(--border-color);
@@ -495,8 +491,6 @@ margin-bottom: 50px;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-
-
 
 .portfolio-example-title:hover,
 .portfolio-example-title:focus,
